@@ -31,12 +31,12 @@ console.log(count);
 
 // with for
 
-let maxNum2 = 35;
-let minNum2 = 15;
+let maxNum2 = 66;
+let minNum2 = 16;
 
-let attempts = 4;
+let attempts = 3;
 
-for (let i = 1; i < attempts; i++) {
+for (let i = 0; i < attempts; i++) {
   const result = Number(prompt("Enter you number! Number of attempts (3)"));
   if (result > minNum2 && result < maxNum2) {
     if (result % multiple === 0) {
@@ -44,5 +44,5 @@ for (let i = 1; i < attempts; i++) {
       break;
     }
   }
-  console.log(`${i} attempts`);
+  console.log(`${i+1} attempts`);
 }
