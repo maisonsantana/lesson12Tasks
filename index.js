@@ -44,5 +44,5 @@ for (let i = 1; i < attempts; i++) {
       break;
     }
   }
-  console.log(`try again: ${i} attempts`);
+  console.log(`${i} attempts`);
 }
