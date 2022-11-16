@@ -3,8 +3,8 @@
 // 1. Запитувати у користувача число до тих пір, доки воно не буде більше 15 і менше 35 і кратне 6 (18,24,30 підходить)
 // В користувача є 3 спроби
 
-let maxNum1 = 35;
-let minNum1 = 15;
+let maxNum1 = 66;
+let minNum1 = 16;
 
 let count = 0;
 let multiple = 6;
@@ -44,5 +44,5 @@ for (let i = 0; i < attempts; i++) {
       break;
     }
   }
-  console.log(`${i+1} attempts`);
+  console.log(`you have reached ${i + 1} attempts`);
 }
